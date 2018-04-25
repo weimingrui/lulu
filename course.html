@@ -5,6 +5,7 @@
 		<title>课程信息</title>
 		<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
 		<link rel="stylesheet" type="text/css" href="style/layout.css">
+		<link rel="stylesheet" type="text/css" href="style/header.css">
 		<link rel="stylesheet" type="text/css" href="style/flex.css">
 		<script type="text/javascript" src="public/jquery.min.js" ></script>
 		<!--<script type="text/javascript" src="js/class_information.js" ></script>-->
@@ -19,54 +20,51 @@
 		</script>
 	</head>
 	<body>
-			<div class="header">
-			    <div class="center-flex">
-				    <img class="logo" src="assets/QQ.png" />
+			<div class="header center-flex">
+			    <div class="center-flex content">
+					<div class="logo" ></div>
 			    	<span class="item"><a href="#">首页</a></span>
-				    <span class="item item_focus" ><a href="#">课程信息</a></span>
-				    <span class="item"><a href="#">签到</a></span>
+				    <span class="item item_focus focus" ><a href="#">课程信息</a></span>
+				    <span class="item"><a href="./sign-in.html">签到</a></span>
 				    <span class="item"><a href="#">答题</a></span>
-				    <span class="item"><a href="#">留言</a></span>
+				    <span class="item"><a href="./message-board.html">留言</a></span>
 				    <span class="item"><a href="#">课程资料</a></span>
-				    <div class="" >
-				    	<div>课程编号</div>
-				    	<div>4ZS147001</div>
+				    <div class="item center-flex" >
+				    	<div class="flex">
+							<div>课程编号</div>
+							<div>4ZS147001</div>
+						</div>
 				    </div>
 				    <img src="assets/weibo.png" class="left-logo-icon"/>
-				    <a id="exitLink" href="#">退出</a>
+					<span class="item"><a id="exit" href="#">退出</a></span>
 			    </div>
 			    
 			</div>
-			
 			<div class="clearfix"></div>
 			<div class="content_banner">
 			    <div class="content_left">
-			    	<p class="class_title">信息工程与社会</p>
+			    	<p class="class_title">数据结构</p>
 			    	<p class="main_techer">主讲人：王国中&nbsp;&nbsp;&nbsp;&nbsp;教授</p>
 			    	<p class="other_techers">参讲人：李国平&nbsp;&nbsp;滕国伟&nbsp;&nbsp;赵海武</p>
 			    	<p class="class_number">课程编号：4ZS147001</p>
-			    	<div class="class_information">
-			    		<span>课程简介：</span>
-			    		<div>
-			    			巴拉阿拉的是很低的第额的都饿狗都啊都顾大哥恶搞的你他妈饿的要的巴拉阿拉
-			    			的是很低的第额的都饿狗都啊都顾大哥恶搞的你他妈饿的要的巴拉阿拉的是很低
-			    			的第额的都饿狗都啊都顾大哥恶搞的你他妈饿的要的巴拉阿拉的是很低的第额的
-			    			都饿狗都啊都顾大哥恶搞的你他妈饿的要的
-			    		</div>
+			    	<div class="class_information text-ellipsis">
+			    		课程简介：<br>
+						采用面向对象C++程序设计语言讲授数据结构，起点高，抽象度高，复用性，实用性强。
+						采用原版教材教学，国内外多种优秀教材作参考。内容丰富，信息量大，不断增加最新研究成果。
+						采用较新的教学模式教学，多媒体辅助教学，教师为主导，深入浅出，任务驱动，案例精讲的同时，鼓励学生探索学习，实践中学习，小组协作学习。
+						理论和实践并重，讲课和实验相结合，注重问题解决。
 			    	</div>
-			    	<div class="teacher_information">
-				    	<span>教师简介：</span>
-				    	<div>
-				    			巴拉阿拉的是很低的第额的都饿狗都啊都顾大哥恶搞的你他妈饿的要的巴拉阿拉
-				    			的是很低的第额的都饿狗都啊都顾大哥恶搞的你他妈饿的要的巴拉阿拉的是很低
-				    			的第额的都饿狗都啊都顾大哥恶搞的你他妈饿的要的巴拉阿拉的是很低的第额的
-				    			都饿狗都啊都顾大哥恶搞的你他妈饿的要的
-				    	</div>
-			    	</div>
+			    	<div class="teacher_information text-ellipsis">
+				    	教师简介：
+				    	<br>
+							在科研方面，主要在SDN网络测量与管理、网络流量测量与大数据分析、僵尸网络和APT攻击检测等领域进行了理论探索性与应用研究。
+							近5年主持国家省部级纵向科研项目10余项，已发表学术论文100余篇。已出版专著5部。申请中国发明专利23项，其中已获授权16项，获得注册软件版权7项。
+							现为本科生开设《计算机网络》、硕士生开设《计算机网络安全》和博士生开设《网络测量与行为学》等课程。
+					</div>
 			    </div>
 			    
 			    <div class="content_right">
-			    	<div class="right_banner">		    		
+			    	<div class="right_banner center-flex-v flex-b">
 			    		<button type="button" class="reflash">刷新</button>		    		
 			    		<p class="students_list">学生列表--共51人</p>
 			    		<button type="button" class="export">导出</button>	

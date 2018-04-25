@@ -19,7 +19,6 @@ body{
 .header{
 	width:80%;
 	height:80px;
-	line-height:80px ;
 	margin:0 auto;
 	/*background-color: yellow;*/
 
@@ -59,7 +58,6 @@ body{
 	border-radius:10px ;
 	text-align: center;
 }
-
 .header .item5{
 	display:inline-block ;
 	width:140px;
